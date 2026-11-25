@@ -1,3 +1,4 @@
+// The 3 AM Commit Message — one commit message, written by main.ts to entry.txt.
 import fs from "node:fs";
 const TEXT = "fix(prod): broke production at 3am, fixed it by breaking it differently. tests pass. do not ask questions.";
 const out = process.env.MAKEFUN_OUTPUT_DIR || "/output";
